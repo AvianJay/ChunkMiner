@@ -24,7 +24,7 @@ public final class ItemManager {
     public static final ItemStack SUPER_PICKAXE = ItemBuilder.of(Material.WOODEN_PICKAXE)
             .name(ChatColor.DARK_AQUA + "Ultimate Wooden Pickaxe")
             .lore(ChatColor.GRAY + "Chunk I")
-            .enchantment(Enchantment.DURABILITY, 5)
+            .enchantment(Enchantment.DURABILITY, 1)
             .unbreakable()
             .build();
 
@@ -38,7 +38,7 @@ public final class ItemManager {
     public static final ItemStack SUPER_DUPER_PICKAXE = ItemBuilder.of(Material.STONE_PICKAXE)
             .name(ChatColor.YELLOW + "Ultimate Stone Pickaxe")
             .lore(ChatColor.GRAY + "Chunk II")
-            .enchantment(Enchantment.DURABILITY, 5)
+            .enchantment(Enchantment.DURABILITY, 1)
             .unbreakable()
             .build();
 
@@ -52,7 +52,7 @@ public final class ItemManager {
     public static final ItemStack SUPER_POOPER_SCOOPER_PICKAXE = ItemBuilder.of(Material.IRON_PICKAXE)
             .name(ChatColor.YELLOW + "Ultimate Iron Pickaxe")
             .lore(ChatColor.GRAY + "Chunk III")
-            .enchantment(Enchantment.DURABILITY, 5)
+            .enchantment(Enchantment.DURABILITY, 1)
             .unbreakable()
             .build();
 
@@ -66,7 +66,7 @@ public final class ItemManager {
     public static final ItemStack SUPER_DUPER_SUPER_POOPER_SCOOPER_PICKAXE = ItemBuilder.of(Material.DIAMOND_PICKAXE)
             .name(ChatColor.YELLOW + "Ultimate Diamond Pickaxe")
             .lore(ChatColor.GRAY + "Chunk IV")
-            .enchantment(Enchantment.DURABILITY, 5)
+            .enchantment(Enchantment.DURABILITY, 1)
             .unbreakable()
             .build();
 
